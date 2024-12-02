@@ -8,21 +8,41 @@
   </head>
   <body>
   
-    <!-- Navigation -->
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
+    <!-- Navigation - updated to match the red header style -->
+    <nav style="background-color: #CC2424; padding: 1rem;">
+      <ul style="display: flex; justify-content: space-around; max-width: 1200px; margin: 0 auto; list-style: none;">
+        <li><a href="#home" style="color: white; text-decoration: none; font-size: 1.5rem;">PROFILE</a></li>
+        <li><a href="#projects" style="color: white; text-decoration: none; font-size: 1.5rem;">PROJECTS</a></li>
+        <li><a href="#about" style="color: white; text-decoration: none; font-size: 1.5rem;">CONTACT</a></li>
       </ul>
     </nav>
 
-    <!-- Home Section -->
-    <section id="home" style="margin-bottom: 50px;">
-      <h1>Hello there! Welcome to Adrian's Portfolio!</h1>
-      <p>I am Adrian, and this is one of the projects of Advanced Computer Science Studio!</p>
-      <p></p>
-      <br>
+    <!-- Home Section - updated to match the large text style -->
+    <section id="home" style="max-width: 1200px; margin: 4rem auto; padding: 0 2rem;">
+      <h1 style="font-size: 3.5rem; font-family: sans-serif;">Hello there! I'm Adrian!</h1>
+      
+      <!-- Content sections with new styling -->
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; align-items: start;">
+        <div>
+          <h2 style="font-size: 2.5rem; margin-top: 3rem;">Interests</h2>
+          <ul style="font-size: 1.2rem; list-style: none; padding: 0;">
+            <li>Formula 1 and Football enthusiast</li>
+            <li>Robotics Team member since 5th grade</li>
+            <li>Music lover</li>
+          </ul>
+
+          <h2 style="font-size: 2.5rem; margin-top: 3rem;">Education</h2>
+          <ul style="font-size: 1.2rem; list-style: none; padding: 0;">
+            <li>Junior at Hong Kong International School</li>
+            <li>Advanced Computer Science Studio</li>
+          </ul>
+        </div>
+        
+        <!-- Profile image placeholder -->
+        <div style="text-align: right;">
+          <img src="" alt="Profile Picture" style="width: 300px; height: 300px; border-radius: 50%; background-color: #eee;">
+        </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
