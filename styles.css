@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Formula1-Regular', sans-serif;
     color: black;
-    background-color: lightblue;
+    background-color: white;
     margin: 0;
     padding: 0;
   }
@@ -9,6 +9,7 @@ body {
   nav {
     background-color: #E10500;
     padding: 1rem;
+    font-family: 'Formula1-Wide', sans, serif
   }
   
   nav ul {
@@ -37,7 +38,8 @@ body {
     margin: 50px 0;
   }
   
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
+    font-family: 'Formula1-Bold', Arial, sans-serif;
     color: black;
   }
   
@@ -71,3 +73,23 @@ body {
     margin-top: 50px;
   }
   
+  @font-face {
+    font-family: 'Formula1-Regular';
+    src: url('fonts/Formula1-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Formula1-Bold';
+    src: url('fonts/Formula1-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Formula1-Wide';
+    src: url('./fonts/Formula1-Wide.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
