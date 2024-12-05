@@ -93,3 +93,81 @@ body {
     font-weight: bold;
     font-style: normal;
   }
+
+  /* F1 Team Section Styles */
+  .team-section {
+    padding: 4rem 2rem;
+    color: rgb(0, 0, 0);
+    min-height: 300px;
+  }
+
+  .team-section h2 {
+    color: white;
+  }
+
+  /* Team Background Colors */
+  .mercedes-bg {
+    background-color: black;
+    color: #C0C0C0;
+  }
+
+  .redbull-bg {
+    background-color: #021E48;
+    color: #E40B21;
+  }
+
+  .mclaren-bg {
+    background-color: #FF9801;
+    color: black; /* Better contrast on orange */
+  }
+
+  .ferrari-bg {
+    background-color: #ED1B25;
+    color: #F1F102;
+  }
+
+  .alpine-bg {
+    background-color: #005BA9;
+    color: #FD4BC7;
+  }
+
+  .aston-bg {
+    background-color: #005850;
+    color: white;
+  }
+
+  .haas-bg {
+    background-color: red;
+    color: black;
+  }
+
+  .alphatauri-bg {
+    background-color: #1633CD;
+    color: white;
+  }
+
+  .alfa-bg {
+    background-color: black;
+    color: #00E501;
+  }
+
+  .williams-bg {
+    background-color: #005AFF;
+    color: #039EE7;
+  }
+
+  /* Add hover effects for interactivity */
+  .team-section:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s ease;
+  }
+
+  /* Add smooth scrolling for the whole page */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Optional: Add some padding-top to the f1-teams section to account for the fixed navbar */
+  #f1-teams {
+    padding-top: 2rem;
+  }
